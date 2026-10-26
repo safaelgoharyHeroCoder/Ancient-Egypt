@@ -1,0 +1,376 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ancient Egypt</title>
+
+    <!-- Bootstrap 3 -->
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <style>
+       
+		body {
+			background-image:
+				linear-gradient(
+					rgba(35, 24, 12, 0.45),
+					rgba(35, 24, 12, 0.45)
+				),
+				url("https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&w=1600&q=80");
+
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+
+			color: #3b2815;
+		}
+
+
+        .navbar {
+            background-color: #352414;
+            border: none;
+        }
+
+        .navbar a {
+            color: #f5d58b !important;
+        }
+
+        .jumbotron {
+            background-color: rgba(255, 248, 220, 0.92);
+            text-align: center;
+            border: 3px solid #c49a42;
+            margin-top: 25px;
+        }
+
+        h1, h2 {
+            color: #8b5a16;
+        }
+
+        .panel {
+            background-color: #fff8e7;
+            border: 2px solid #c49a42;
+        }
+
+        .panel-heading {
+            background-color: #8b5a16 !important;
+            color: white !important;
+        }
+
+        .panel-body img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .well {
+            background-color: #fff0c2;
+            border: 2px solid #c49a42;
+        }
+
+        .gold-table {
+            background-color: #fff8e7;
+        }
+
+        footer {
+            background-color: #352414;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        .btn-gold {
+            background-color: #b8860b;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+  
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    Ancient Egypt
+                </a>
+            </div>
+
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#places">Famous Places</a></li>
+                <li><a href="#facts">Facts</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="container">
+
+        
+        <div class="jumbotron">
+
+            <h1>Welcome to Ancient Egypt</h1>
+
+            <p>
+                Discover the amazing world of the Pharaohs!
+            </p>
+
+            <button class="btn btn-gold btn-lg">
+                Explore History
+            </button>
+
+        </div>
+
+       
+        <div class="alert alert-warning">
+            <strong>Did You Know?</strong>
+            Ancient Egypt is famous for its pyramids and pharaohs.
+        </div>
+
+        
+        <h2 id="places" class="text-center">
+            Famous Egyptian Landmarks
+        </h2>
+
+        <div class="row">
+
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            The Pyramids
+                        </h3>
+                    </div>
+
+                    <div class="panel-body">
+
+                        <img class="img-rounded"
+                        src="https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&w=600&q=80"
+                        alt="Egyptian Pyramids">
+
+                        <p>
+                            The pyramids were built as tombs
+                            for ancient Egyptian kings.
+                        </p>
+
+                        <button class="btn btn-warning">
+                            Learn More
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            The Sphinx
+                        </h3>
+                    </div>
+
+                    <div class="panel-body">
+
+                        <img class="img-circle"
+                        src="https://images.unsplash.com/photo-1568322445389-f64ac2515020?auto=format&fit=crop&w=600&q=80"
+                        alt="The Great Sphinx">
+
+                        <p>
+                            The Great Sphinx has a human head
+                            and a lion's body.
+                        </p>
+
+                        <button class="btn btn-warning">
+                            Learn More
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            Ancient Temples
+                        </h3>
+                    </div>
+
+                    <div class="panel-body">
+
+                        <img class="img-thumbnail"
+                        src="https://images.unsplash.com/photo-1603565816030-6b389eeb23cb?auto=format&fit=crop&w=600&q=80"
+                        alt="Ancient Egyptian Temple">
+
+                        <p>
+                            Egyptian temples were places
+                            of worship and ceremonies.
+                        </p>
+
+                        <button class="btn btn-warning">
+                            Learn More
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="well">
+            <h2>Life in Ancient Egypt</h2>
+
+            <p>
+                Ancient Egyptians used the Nile River for
+                farming, travel, and daily life.
+                They also developed writing called hieroglyphs.
+            </p>
+        </div>
+
+      
+        <h2 id="facts">Amazing Facts</h2>
+
+        <ul class="list-group">
+            <li class="list-group-item">
+                The Nile River
+                <span class="badge">River</span>
+            </li>
+
+            <li class="list-group-item">
+                Hieroglyphic Writing
+                <span class="badge">Writing</span>
+            </li>
+
+            <li class="list-group-item">
+                The Pharaohs
+                <span class="badge">Kings</span>
+            </li>
+        </ul>
+
+        
+        <h2>Famous Pharaohs</h2>
+
+        <table class="table table-bordered table-striped gold-table">
+
+            <tr>
+                <th>Name</th>
+                <th>Known For</th>
+            </tr>
+
+            <tr>
+                <td>Tutankhamun</td>
+                <td>His famous tomb</td>
+            </tr>
+
+            <tr>
+                <td>Ramses II</td>
+                <td>Great temples and monuments</td>
+            </tr>
+
+            <tr>
+                <td>Cleopatra VII</td>
+                <td>The last active ruler of Ptolemaic Egypt</td>
+            </tr>
+
+        </table>
+
+        
+        <h2>Explore Egyptian History</h2>
+
+        <div class="progress">
+            <div class="progress-bar progress-bar-warning"
+                 style="width: 75%">
+                75% Explored
+            </div>
+        </div>
+
+        
+        <div class="btn-group">
+            <button class="btn btn-warning">
+                <span class="glyphicon glyphicon-home"></span>
+                Home
+            </button>
+
+            <button class="btn btn-warning">
+                <span class="glyphicon glyphicon-book"></span>
+                History
+            </button>
+
+            <button class="btn btn-warning">
+                <span class="glyphicon glyphicon-camera"></span>
+                Gallery
+            </button>
+        </div>
+
+      
+        <div class="dropdown" style="margin-top: 20px;">
+
+            <button class="btn btn-gold dropdown-toggle"
+                    data-toggle="dropdown">
+                Discover More
+                <span class="caret"></span>
+            </button>
+
+            <ul class="dropdown-menu">
+                <li><a href="#places">Famous Places</a></li>
+                <li><a href="#facts">Amazing Facts</a></li>
+            </ul>
+
+        </div>
+
+        
+        <h2>Did You Know?</h2>
+
+        <button class="btn btn-gold"
+                data-toggle="collapse"
+                data-target="#moreFacts">
+            Show More Facts
+        </button>
+
+        <div id="moreFacts" class="collapse">
+            <div class="well">
+                Ancient Egyptians made paper-like sheets
+                from a plant called papyrus.
+            </div>
+        </div>
+
+       
+        <ul class="pagination">
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#places">2</a></li>
+            <li><a href="#facts">3</a></li>
+        </ul>
+
+       
+        <ul class="pager">
+            <li class="previous">
+                <a href="#">&larr; Previous</a>
+            </li>
+            <li class="next">
+                <a href="#places">Next &rarr;</a>
+            </li>
+        </ul>
+
+        
+        <footer>
+            <h3>Ancient Egypt</h3>
+            <p>Discover the wonders of the past!</p>
+            <p>Made by: Your Name</p>
+        </footer>
+
+    </div>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
